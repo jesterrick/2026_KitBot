@@ -3,15 +3,6 @@
 // the WPILib BSD license file in the root directory of this project.
 
 package frc.robot.constants;
-import edu.wpi.first.wpilibj2.command.SubsystemBase;
-
 
 /** Add your docs here. */
-public final class DriveConstants {
-   public static final boolean kLeftInverted = false;
-   public static final boolean kRightInverted = true;
-
-   public static final int kCurrentLimit = 40;
-
-
-}
+public class OIConstants {}

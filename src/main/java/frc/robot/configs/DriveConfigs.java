@@ -4,19 +4,23 @@
 
 package frc.robot.configs;
 
+import com.revrobotics.spark.config.SparkBaseConfig.IdleMode;
+import com.revrobotics.spark.config.SparkMaxConfig;
+import com.revrobotics.PersistMode;
+import com.revrobotics.ResetMode;
+import com.revrobotics.spark.SparkMax;
+import com.revrobotics.spark.SparkLowLevel.MotorType;
 import com.revrobotics.spark.config.SparkMaxConfig;
 
 import frc.robot.constants.CanIdConstants;
+import frc.robot.constants.DriveConstants;
 
 /* You should consider using the more terse Command factories API instead https://docs.wpilib.org/en/stable/docs/software/commandbased/organizing-command-based.html#defining-commands */
 public class DriveConfigs {
-  /** Creates a new DriveConfigs. */
+  
 
-    public static final SparkMaxConfig m_LeftLeader = new SparkMaxConfig();
-    public static final SparkMaxConfig m_LeftFollow = new SparkMaxConfig();
 
-    static {
-      m_LeftFollow.follow(CanIdConstants.kLeftMotorLeaderCanId, true);
-      
-    }
+ 
+    
+    
 }
